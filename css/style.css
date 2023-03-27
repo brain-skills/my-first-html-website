@@ -1,0 +1,37 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {width: 100%; display: block; margin: 0;}
+header {
+    position: relative;
+    display: flow-root;
+    border-bottom: 1px solid #bbb;
+    padding: 0 0 15px 0;
+    margin: 20px;
+}
+.logo {display: block;float: left;}
+nav {
+    float: right;
+    display: block;
+    padding: 15px 0 12px 0;
+    font-size: 16px;
+}
+nav a{padding: 0px 10px;}
+nav .active{color: red;}
+main {
+	width: -webkit-fill-available;
+	margin: 20px;
+}
+footer {
+	border-top: 1px solid #bbb;
+	margin: 20px;
+	bottom: -20px;
+	display: block;
+	position: relative;
+}
+footer span{
+	text-align: right;
+	display: block;
+	padding: 15px;
+}
